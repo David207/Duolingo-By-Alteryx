@@ -68,7 +68,7 @@ All the steps outlined above are a repeatable Alteryx workflow that can be run i
 
 Data Warehousing Group Project - Tables.yxmd: The Alteryx workflow created for the class project
 learning_traces.csv: An input file that has a sample of the Duolingo data. The class project originally used a dataset that had approximately 12.8 million rows. Due to the original file's enormous size, the file that is in this repository contains only the first 200,000 rows of data. The Alteryx workflow works on both the file currently in the repository as well as the original file from <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/N8XJME">Harvard Dataverse.</a></li>
-<li><a href="https://github.com/VKwongData/Duolingo/blob/main/lexeme_reference.txt">lexeme_reference.txt</a>: An input file that has the definitions for the abbreviations used in the learning_traces.13m.csv file.
+lexeme_reference.txt: An input file that has the definitions for the abbreviations used in the learning_traces.13m.csv file.
 CLEAN SAMPLE learning_traces.csv: An output file from the Alteryx workflow that shows the transformed sample data in a single csv file (excluding transformations done to create the dimension and fact tables for the database).
 Presentation.pptx: Selected slides from the group presentation that introduced the data and outlined the ETL process.
 
